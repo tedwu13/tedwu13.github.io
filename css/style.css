@@ -74,34 +74,3 @@ h1 span{
 	width:100%;
 	position:relative;
 }
-/* Footer Style */
-.footer{
-	position:fixed;
-	width:100%;
-	height:25px;
-	line-height:24px;
-	bottom:0;
-	font-size:13px;
-	background:#000;
-	opacity:0.9;
-	text-transform:uppercase;
-	font-family: 'PT Sans Narrow', Arial, sans-serif;
-	z-index:4;
-}
-.footer a{
-	padding:5px 10px;
-	letter-spacing:1px;
-	text-shadow:1px 1px 1px #000;
-	color:#ddd;
-	text-align:right;
-}
-.footer a:hover{
-	color:#fff;
-}
-.footer a span{
-	font-weight:bold;
-}
-.footer span.right_ab{
-	position:absolute;
-	right:4px;
-}
