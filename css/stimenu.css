@@ -47,17 +47,17 @@
 	top:30px;
 }
 .sti-icon-care{
-	background-image:url(../images/care.png);
+	background-image:url(../images/about.png);
 }
 .sti-icon-alternative{
-	background-image:url(../images/alternative.png);
+	background-image:url(../images/education.png);
 }
 .sti-icon-family{
-	background-image:url(../images/family.png);
+	background-image:url(../images/projects.png);
 }
 .sti-icon-info{
-	background-image:url(../images/info.png);
+	background-image:url(../images/interests.png);
 }
 .sti-icon-technology{
-	background-image:url(../images/technology.png);
+	background-image:url(../images/contact.png);
 }
