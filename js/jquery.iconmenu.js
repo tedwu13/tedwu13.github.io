@@ -102,7 +102,7 @@
 								});
 								// animate the bg color of the item
 								$wrapper.stop(true).animate({
-									backgroundColor: settings.defaultTextColor
+									backgroundColor: settings.defaultBgColor
 								}, settings.boxAnimSpeed );
 							
 							}, 100);	
