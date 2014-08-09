@@ -1,5 +1,5 @@
 .sti-menu{
-	width:1010px;
+	max-width:1010px;
 	position:relative;
 	margin:auto;
 	margin-top: 120px;
@@ -51,8 +51,8 @@
 .sti-icon-about{
 	background-image:url(../images/about.png);
 }
-.sti-icon-education{
-	background-image:url(../images/education.png);
+.sti-icon-experiences{
+	background-image:url(../images/experiences.png);
 }
 .sti-icon-projects{
 	background-image:url(../images/projects.png);
