@@ -5,14 +5,16 @@
 		<meta charset="UTF-8" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/stimenu.css" />
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" type="text/css" href="css/fullPage.css" />
 		<link href='http://fonts.googleapis.com/css?family=Wire+One&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=BenchNine:700' rel='stylesheet' type='text/css'>
     </head>
     <body>
-		<div class="container">
+
+		<div class="container" id ="fullpage">
 			<ul id="sti-menu" class="sti-menu">
-				<li data-hovercolor="#37c5e9">
-					<a href="#">
+				<li data-menuanchor="about" class="active" data-hovercolor="#37c5e9">
+					<a href="#about">
 						<h2 data-type="mText" class="sti-item">About Me</h2>
 						<h3 data-type="sText" class="sti-item"></h3>
 						<span data-type="icon" class="sti-icon sti-icon-about sti-item"></span>
@@ -47,6 +49,18 @@
 					</a>
 				</li>
 			</ul>
+
+
+			<section id = "about">
+			<h1>hi my name is ted wu</h1>
+			</section>
+
+			<section id = "about">
+			<h1>hi my name is ted wu</h1>
+			</section>
+
+
+
 			
 		</div>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -57,6 +71,8 @@
 			$(function() {
 				$('#sti-menu').iconmenu();
 			});
+
+
 		</script>
     </body>
 </html>

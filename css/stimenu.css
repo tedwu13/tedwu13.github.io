@@ -2,13 +2,16 @@
 .sti-menu{
 	width:1010px;
 	position:relative;
-	margin:60px auto 0 auto;
+	margin:auto;
+	margin-top: 120px;
 }
 .sti-menu li{
 	float:left;
 	width:200px;
 	height:300px;
 	margin:1px;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .sti-menu li a{
 	display:block;
@@ -24,7 +27,7 @@
 }
 .sti-menu li a h2{
 	color:#000;
-	font-family: 'Wire One', arial, serif; 
+	font-family: 'BenchNine', arial, serif; 
 	font-size:42px;
 	font-weight:bold;
 	text-transform:uppercase;
@@ -33,7 +36,6 @@
 	width:180px;
 	top:140px;
 	left:0px;
-	text-shadow: 0px 1px 1px black;
 }
 .sti-menu li a h3{
 	font-family: Baskerville, "Hoefler Text", Garamond, "Times New Roman", serif; 
