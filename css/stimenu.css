@@ -1,8 +1,9 @@
 .sti-menu{
 	max-width:1010px;
+	height: 600px;
 	position:relative;
 	margin:auto;
-	margin-top: 120px;
+	margin-top: 100px;
 }
 .sti-menu li{
 	float:left;
@@ -63,3 +64,4 @@
 .sti-icon-contact{
 	background-image:url(../images/contact.png);
 }
+
