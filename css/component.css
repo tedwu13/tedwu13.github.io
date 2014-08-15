@@ -195,13 +195,21 @@ div.bl-panel-items > div > div {
 	margin: 0 auto;
 	padding-bottom: 15px;
 	font-size: 1.7em;
-	line-height: 1.8;
+	line-height: 1.5;
+	display: inline;
+}
+
+.bl-content h3 {
+	padding-bottom: 10px;
+	font-size: 2.0em;
+	line-height: 1.5;
+	display:inline;
 }
 
 .bl-content h2 {
-	font-size: 3em;
-	font-weight: 300;
-	margin: 0 0 20px 0;
+	font-size: 5em;
+	font-weight: 400;
+	margin: 0 0 20px 30px;
 }
 
 .bl-content article {
@@ -464,12 +472,15 @@ section.bl-expand .bl-icon-close {
 
 
 @media screen and (max-width: 46.5em) {
+	body{
+		font-size: 65%;
+
+	}
 	.bl-content{
 		height: 100%;
 		width:100%;
 	}
 	.bl-box {
-		font-size: 65%;
 		position: static;
 		width: 150px;
 		height: 60px;
@@ -485,11 +496,11 @@ section.bl-expand .bl-icon-close {
 	}
 
 	.profile{
-  	margin-right: 25px;
-  	margin-bottom: 10px;
+  	margin-right: 50px;
+  	margin-bottom: 15px;
   	display: block;
-  	width: 150px;
-  	height: 150px;
+  	width: 200px;
+  	height: 200px;
   	float: left;
   	background-size: cover;
   	background-repeat: no-repeat;
