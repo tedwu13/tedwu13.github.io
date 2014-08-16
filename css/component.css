@@ -222,7 +222,8 @@ div.bl-panel-items > div > div {
 	text-transform: uppercase;
 	margin: 0 0 10px 0;
 	padding-top: 20px;
-	font-size: 1.4em;
+	font-size: 2.0em;
+	padding-bottom:10px;
 }
 
 .bl-content article a {
@@ -482,7 +483,7 @@ section.bl-expand .bl-icon-close {
 	}
 
 	.bl-content h2{
-
+		font-size: 4.5em;
 
 	}
 	.bl-box {
@@ -492,12 +493,17 @@ section.bl-expand .bl-icon-close {
 
 	}
 
+
 	.bl-expand .bl-box {
 		height: 130px;
 	}
 
 	.bl-content > ul li {
 		width: 40%;
+	}
+
+	.list-type{
+		font-size: 15px;
 	}
 
 	.profile{

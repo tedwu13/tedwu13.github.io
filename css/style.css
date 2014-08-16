@@ -1,38 +1,7 @@
-
-body{
-	
-	color:#000;
-	font-family:'Georgia', 'Trebuchet MS', serif;
-	font-size:12px;
-	height: 100%;
-	width:100%;
-}
+/*stylign for experiences page*/
 
 
-.clr{
-	clear:both;
+.list-type{
+	font-size: 20px;
 }
-.container {
-	width:100%;
-	position:relative;
-	z-index:100;
-	margin:0 auto;
-}
-.header{
-	padding-top:40px;
-}
-.content {
-	width:1000px;
-	margin:0 auto;
-}
-h1{
-	margin:10px 0 0px 20px;
-	font-size:80px;
-	color:#000;
-	text-shadow:1px 1px 1px #fff;
-	font-family: 'Wire One', arial, serif; 
-}
-h1 span{
-	font-size:22px;
-	text-transform:uppercase;
-}
+
