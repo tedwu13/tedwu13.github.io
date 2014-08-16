@@ -209,7 +209,7 @@ div.bl-panel-items > div > div {
 .bl-content h2 {
 	font-size: 5em;
 	font-weight: 400;
-	margin: 0 0 20px 30px;
+	margin: 0 0 20px 10px;
 }
 
 .bl-content article {
@@ -479,6 +479,11 @@ section.bl-expand .bl-icon-close {
 	.bl-content{
 		height: 100%;
 		width:100%;
+	}
+
+	.bl-content h2{
+
+
 	}
 	.bl-box {
 		position: static;
