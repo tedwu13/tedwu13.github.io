@@ -209,7 +209,7 @@ div.bl-panel-items > div > div {
 .bl-content h2 {
 	font-size: 5em;
 	font-weight: 400;
-	margin: 0 0 20px 30px;
+	margin: 0 0 20px 10px;
 }
 
 .bl-content article {
@@ -222,7 +222,8 @@ div.bl-panel-items > div > div {
 	text-transform: uppercase;
 	margin: 0 0 10px 0;
 	padding-top: 20px;
-	font-size: 1.4em;
+	font-size: 2.0em;
+	padding-bottom:10px;
 }
 
 .bl-content article a {
@@ -274,6 +275,12 @@ div.bl-panel-items > div > div {
 
 div.bl-panel-items > div > div h3 {
 	font-size: 2.4em;
+	font-weight: 400;
+	margin: 0 0 20px 0;
+}
+
+div.bl-panel-items > div > div h4 {
+	font-size: 2.0em;
 	font-weight: 300;
 	margin: 0 0 20px 0;
 }
@@ -480,6 +487,11 @@ section.bl-expand .bl-icon-close {
 		height: 100%;
 		width:100%;
 	}
+
+	.bl-content h2{
+		font-size: 4.5em;
+
+	}
 	.bl-box {
 		position: static;
 		width: 150px;
@@ -487,12 +499,17 @@ section.bl-expand .bl-icon-close {
 
 	}
 
+
 	.bl-expand .bl-box {
 		height: 130px;
 	}
 
 	.bl-content > ul li {
 		width: 40%;
+	}
+
+	.list-type{
+		font-size: 15px;
 	}
 
 	.profile{
