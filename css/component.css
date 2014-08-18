@@ -293,6 +293,7 @@ div.bl-panel-items > div > div img {
 	float: left;
 	margin: 0 20px 20px 0;
 	max-width: 100%;
+	max-height: 100%;
 }
 
 div.bl-panel-items {
