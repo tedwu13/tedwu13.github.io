@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/component.css"/>
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/carousel.css">
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
@@ -22,6 +23,41 @@
 					<div class="bl-content">
 						<h2>Ted Wu</h2>
 						<img class="profile" src="images/profile.png"/>
+
+						<div id="ca-container" class="ca-container">
+						    <div class="ca-wrapper">
+						        <div class="ca-item ca-item-1">
+						            <div class="ca-item-main">
+						                <div class="ca-icon"></div>
+						                <h3>Stop factory farming</h3>
+						                <h4>
+						                    <span class="ca-quote">“</span>
+						                    <span>Some text...</span>
+						                </h4>
+						                    <a href="#" class="ca-more">more...</a>
+						            </div>
+						            <div class="ca-content-wrapper">
+						                <div class="ca-content">
+						                    <h6>Animals are not commodities</h6>
+						                    <a href="#" class="ca-close">close</a>
+						                    <div class="ca-content-text">
+						                        <p>Some more text...</p>
+						                    </div>
+						                    <ul>
+						                        <li><a href="#">Read more</a></li>
+						                        <li><a href="#">Share this</a></li>
+						                        <li><a href="#">Become a member</a></li>
+						                        <li><a href="#">Donate</a></li>
+						                    </ul>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="ca-item ca-item-2">
+						            ...
+						        </div>
+						        ...
+						    </div><!-- ca-wrapper -->
+						</div><!-- ca-container -->
 						<h3> Allow me to introduce myself...</h3></br>
 						<h3>Education:</h3><p> Northwestern University 2016</p></br>
 						<h3>Major:</h3><p> B.S. in Computer Science</p></br>
@@ -30,30 +66,6 @@
 						<h3>Volunteer:</h3><p> Camp Kesem Counselor, Wildcat Welcome Peer Advisor, Rustic Pathways</p></br>
 						<h3>Interests:</h3><p> Basketball, Guitar, Dance</p></br>
 						
-						<h3>Strengths:</h3></br>
-						<ul class="list-group">
-						  <li class="list-group-item">
-						    <span class="badge">6</span>
-						    HTML 
-						  </li>
-						  <li class="list-group-item">
-						    <span class="badge">6</span>
-						    Programming
-						  </li>
-						  <li class="list-group-item">
-						    <span class="badge">5</span>
-						    Javascript
-						  </li>
-						  <li class="list-group-item">
-						    <span class="badge">4</span>
-						    C++
-						  </li>
-						  <li class="list-group-item">
-						    <span class="badge">4</span>
-						    CSS
-						  </li>
-						  
-						</ul>
 
 					<span class="bl-icon bl-icon-close"></span>
 				</section>
@@ -63,7 +75,7 @@
 					</div>
 					<div class="bl-content">
 						<h2>Personal Projects</h2>
-						<p>I found passion in computer science and developing when I was a sophomore in college. I took an intro programming class and I really enjoyed coding and hacking on the side and experimenting with different technologies especially with the web. I've listed out some past projects that I've worked on. In the beginning, I was just building static web apps using HTML, CSS, and Javscript. Then I started building web apps that is more full stack and dynamic using MEAN stack (Mongo/Mongoose/Express/Angular/Nodejs and MeteorJs as quick prototyping</p>
+						<p>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I found <strong class="emphasis">passion</strong> in computer science and software development when I was a sophomore in college. I took an introduction programming class and kept on hacking and experimenting with different technologies especially with the web. I've listed out some past projects that I've worked on. In the beginning, I was just building static web apps using HTML, CSS, and Javscript. Then I started building web apps that is more full stack and dynamic using MEAN stack (Mongo/Mongoose/Express/Angular/Nodejs) and MeteorJs for quick prototyping.</p>
 						<ul id="bl-work-items">
 							<li data-panel="panel-1"><a href="#"><img src="images/1.png" /></a></li>
 							<li data-panel="panel-2"><a href="#"><img src="images/2.png" /></a></li>
@@ -272,6 +284,13 @@
 		</div><!-- /container -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/boxlayout.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
+		<script type="text/javascript">
+			$('#ca-container').contentcarousel();
+		</script>
 		<script>
 			$(function() {
 				Boxlayout.init();
