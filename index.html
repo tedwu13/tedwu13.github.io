@@ -9,14 +9,10 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/component.css"/>
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/accordion.css"/>
 		<script src="js/modernizr.custom.js"></script>
-		<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-		<script>
-		  $(function() {
-		    $( "#accordion" ).accordion();
-		  });
-  		</script>
+
 	</head>
 	<body>
 		<div class="container-fluid">	
@@ -29,27 +25,55 @@
 						<h2>Ted Wu</h2>
 						<img class="profile" src="images/profile.png"/>
 
-						<section class="ac-container">
-						    <div>
-						        <input id="ac-1" name="accordion-1" type="checkbox" />
-						        <label for="ac-1">About us</label>
-						        <article class="ac-small">
-						            <p>Some content... </p>
-						        </article>
-						    </div>
-						    <div>
-						        <input id="ac-2" name="accordion-1" type="checkbox" checked />
-						        <label for="ac-2">How we work</label>
-						        <article class="ac-medium">
-						            <p>Some content... </p>
-						        </article>
-						    </div>
-						    <div><!--...--></div>
-						</section>
+						<div id="accordian">
+							<ul>
+								<li>
+									<h3>Dashboard</h3>
+									<ul>
+										<li><a href="#">Reports</a></li>
+										<li><a href="#">Search</a></li>
+										<li><a href="#">Graphs</a></li>
+										<li><a href="#">Settings</a></li>
+									</ul>
+								</li>
+								<!-- we will keep this LI open by default -->
+								<li class="active">
+									<h3></span>Tasks</h3>
+									<ul>
+										<li><a href="#">Today's tasks</a></li>
+										<li><a href="#">Urgent</a></li>
+										<li><a href="#">Overdues</a></li>
+										<li><a href="#">Recurring</a></li>
+										<li><a href="#">Settings</a></li>
+									</ul>
+								</li>
+								<li>
+									<h3>Calendar</h3>
+									<ul>
+										<li><a href="#">Current Month</a></li>
+										<li><a href="#">Current Week</a></li>
+										<li><a href="#">Previous Month</a></li>
+										<li><a href="#">Previous Week</a></li>
+										<li><a href="#">Next Month</a></li>
+										<li><a href="#">Next Week</a></li>
+										<li><a href="#">Team Calendar</a></li>
+										<li><a href="#">Private Calendar</a></li>
+										<li><a href="#">Settings</a></li>
+									</ul>
+								</li>
+								<li>
+									<h3>Favourites</h3>
+									<ul>
+										<li><a href="#">Global favs</a></li>
+										<li><a href="#">My favs</a></li>
+										<li><a href="#">Team favs</a></li>
+										<li><a href="#">Settings</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
 					</div>
-
-
-						
+					
 					<span class="bl-icon bl-icon-close"></span>
 				</section>
 				<section id="bl-work-section">
