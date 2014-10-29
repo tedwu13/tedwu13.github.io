@@ -9,9 +9,9 @@
 	font-style: normal;
 }
 #accordian {
-	background: #004050;
-	width: 500px;
-	margin: 100px auto 0 auto;
+	background: #423C40;
+	width: 450px;
+	margin: 0 auto;
 	color: white;
 	/*Some cool shadow and glow effect*/
 }
@@ -23,8 +23,7 @@
 	line-height: 34px;
 	padding: 0 10px;
 	cursor: pointer;
-	background: #003040; /**/
-	background: linear-gradient(#003040, #002535);
+	background: #423C40; /**/
 }
 /*heading hover effect*/
 #accordian h4:hover {
@@ -33,12 +32,15 @@
 
 #accordion-body p{
 	font-size:18px;
-	padding-left: 5px;
 	font-family:'Lato';
+	font-weight:bold;
+	line-height: 14px;
+	padding-left: 5px;
 }
 
 #accordian ul {
-	margin-left: -39px;
+	background: #423C40;
+	padding-left: 12px;
 }
 /*list items*/
 #accordian li {

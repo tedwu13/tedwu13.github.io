@@ -60,7 +60,6 @@ input:focus, textarea:focus {
 	}
 
 
-
 .emphasis{
 	text-transform: uppercase;
 	font-weight: bold;
@@ -70,3 +69,50 @@ input:focus, textarea:focus {
 .emphasis:hover{
 	color: red;
 };
+
+
+.animated { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+@-webkit-keyframes bounceInDown { 
+   0% { 
+       opacity: 0; 
+        -webkit-transform: translateY(-2000px); 
+    } 
+    60% { 
+        opacity: 1; 
+        -webkit-transform: translateY(30px); 
+    } 
+    80% { 
+        -webkit-transform: translateY(-10px); 
+    } 
+    100% { 
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes bounceInDown { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(-2000px); 
+    } 
+    60% { 
+        opacity: 1; 
+        transform: translateY(30px); 
+    } 
+    80% { 
+        transform: translateY(-10px); 
+    } 
+    100% { 
+        transform: translateY(0); 
+    } 
+} 
+
+.bounceInDown { 
+    -webkit-animation-name: bounceInDown; 
+    animation-name: bounceInDown; 
+}
