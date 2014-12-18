@@ -459,12 +459,12 @@ section.bl-expand .bl-icon-close {
 }
 
 .profile{
-  margin-right: 25px;
-  margin-bottom: 10px;
+
   display: block;
   width: 350px;
   height: 350px;
-  float: left;
+  margin: 0 auto;
+  margin-top: 8px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
