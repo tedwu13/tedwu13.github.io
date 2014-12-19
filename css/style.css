@@ -70,4 +70,14 @@ input:focus, textarea:focus {
 	color: red;
 };
 
+.caption > h3{
+    text-align: center;
+
+}
+
+.caption > p{
+    text-align: center;
+    font-size: 10px;
+
+}
 

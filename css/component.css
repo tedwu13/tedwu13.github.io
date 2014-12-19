@@ -465,6 +465,7 @@ section.bl-expand .bl-icon-close {
   height: 350px;
   margin: 0 auto;
   margin-top: 8px;
+  margin-bottom: 2em;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -516,21 +517,5 @@ section.bl-expand .bl-icon-close {
 		font-size: 15px;
 	}
 
-	.profile{
-  	margin-right: 50px;
-  	margin-bottom: 15px;
-  	display: block;
-  	width: 200px;
-  	height: 200px;
-  	float: left;
-  	background-size: cover;
-  	background-repeat: no-repeat;
-  	background-position: center center;
-  	-webkit-border-radius: 99em;
-  	-moz-border-radius: 99em;
-  	border-radius: 99em;
-  	border: 5px solid #eee;
-  	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
-}
 }
 
