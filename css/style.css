@@ -70,14 +70,9 @@ input:focus, textarea:focus {
 	color: red;
 };
 
-.caption > h3{
-    text-align: center;
-
+#blurb{
+    font-size: 14px;
 }
-
-.caption > p{
+#blurbHeader{
     text-align: center;
-    font-size: 10px;
-
 }
-
