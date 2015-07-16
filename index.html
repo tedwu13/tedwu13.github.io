@@ -1,327 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Ted Wu's Personal Website</title>
-		<meta name="author" content="Ted Wu"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/component.css"/>
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
-		<script src="js/modernizr.custom.js"></script>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script>
-			/*jQuery time*/
-			$(document).ready(function(){
-				$("#accordian h4").click(function(){
-					//slide up all the link lists
-					$("#accordian ul ul").slideUp();
-					//slide down the link list below the h3 clicked - only if its closed
-					if(!$(this).next().is(":visible"))
-					{
-						$(this).next().slideDown();
-					}
-				})
-			})
-		</script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/favicon.ico">
 
-	</head>
-	<body>
-		<div class="container-fluid">	
-			<div id="bl-main" class="bl-main">
-				<section class="parent">
-					<div class="bl-box">
-						<h2>About Me</h2>
-					</div>
-					<div class="bl-content">
-						<h2>Ted Wu</h2>
-						<img class="profile" src="images/profile.png"/>
-						<div class="row">
-						  <div class="col-sm-6 col-md-4">
-						    <div class="thumbnail">
-						      <img style= "width: 200px; height: 200px" src="images/design-icon.png" alt="...">
-						      <div class="caption">
-						        <h3 id="blurbHeader">Design</h3>
-						        </br>
-						        <p id="blurb">I love designing products, web apps, or websites because I get to be creative about different types of design and focus on creating good user interface</p>
-x
-						      </div>
-						    </div>
-						  </div>
+    <title>BASIC - Blacktie.co Free Theme</title>
 
-						  <div class="col-sm-6 col-md-4">
-						    <div class="thumbnail">
-						      <img style= "width: 200px; height: 200px" src="images/responsive-web-icon.png">
-						      <div class="caption">
-						        <h3 id="blurbHeader">Software Development</h3>
-						   	 </br>
-						        <p id="blurb">I like solving problems especially with technology. I am passionate about agile software development because I enjoy the retrospectives and constant iterations to improve products</p>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-						      </div>
-						    </div>
-						  </div>
-
-						  <div class="col-sm-6 col-md-4">
-						    <div class="thumbnail">
-						      <img style= "width: 200px; height: 200px" src="images/consult-icon.png">
-						      <div class="caption">
-						        <h3 id="blurbHeader">Business Finance</h3>
-						        </br>
-						        <p id="blurb">I enjoy analyzing both microeconomics and macroeconomics to understand the current state of the economy. I own a diversified stock portfolio that is focusing on long term potential stocks </p>
-
-						      </div>
-						    </div>
-						  </div>
-
-					</div>
-					
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<section id="bl-work-section">
-					<div class="bl-box">
-						<h2>Projects</h2>
-					</div>
-					<div class="bl-content">
-						<h2>Personal Projects</h2>
-						<p>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I found <strong class="emphasis">passion</strong> in computer science and software development when I was a sophomore in college. I took an introduction programming class and kept on hacking and experimenting with different technologies especially with the web. I've listed out some past projects that I've worked on. In the beginning, I was just building static web apps using HTML, CSS, and Javscript. Then I started building web apps that is more full stack and dynamic using MEAN stack (Mongo/Mongoose/Express/Angular/Nodejs) and MeteorJs for quick prototyping.</p>
-						<br>
-						<h3>Click on each project below for more details</h3>
-						<ul id="bl-work-items">
-							<li data-panel="panel-1"><a href="#"><img src="images/1.png" /></a></li>
-							<li data-panel="panel-2"><a href="#"><img src="images/2.png" /></a></li>
-							<li data-panel="panel-3"><a href="#"><img src="images/3.png" /></a></li>
-							<li data-panel="panel-4"><a href="#"><img src="images/4.png" /></a></li>
-
-							<li data-panel="panel-5"><a href="#"><img src="images/5.png" /></a></li>
-							<li data-panel="panel-6"><a href="#"><img src="images/6.png" /></a></li>
-
-							<li data-panel="panel-7"><a href="#"><img src="images/7.png" /></a></li>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
 
-						</ul>
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<section>
-					<div class="bl-box">
-						<h2>Experience</h2>
-					</div>
-					<div class="bl-content">
-						<h2>Experience</h2>
-						<article>
-							<h3>Work Experience</h3></br>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
-							<div class="media">
-								<img class=" media-object pull-left" src="images/onenorth.png">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-								<div class="media-body">
-								<p class="media-heading">One North Interactive (06/2014-9/2014)</p></br>
-								<ul class="list-type">
-									<li>Worked with front end development team to design websites and fix bugs and styling</li>
-									<li>Implemented a web application that helps the architects to rate security for each client website</li>
-									<li>Designed pieces of ascii art and embedded dynamic robots to prevent web crawlers</li>
-									<li>Utilized Meteorjs to build fast prototypes and Drupal for dynamic content</li>
-								</ul>
-								</div>
-							</div>
-							
-							<div class="media">
-								<img class=" media-object pull-left" src="images/neosavvy.png">
-								<div class="media-body">
-								<p class="media-heading">Neosavvy NEXT Externship Program</p>
-								<ul class="list-type">
-									<li>Shadowed a mentor and focused on test-driven development</li>
-									<li>Visited other New York startups like Contently and Honest Buildings</li>
-								</ul>
-								</div>
-							</div>
-							
-						</article>
-						<article>
-							<h3>Leadership Experience</h3></br>
+  <body>
 
-							<div class="media">
-								<img class=" media-object pull-left" src="images/welcome.png">
-							<p class="media-heading">Wildcat Welcome Peer Advisor (04/2014-Present)</p>
-								<div class="media-body">
-								<ul class="list-type">
-									<li>Planned a week of orientation to help freshmen transition to college life</li>
-									<li>Mentored 15 freshmen through positive encouragement and establishment of goals</li>
-									<li>Assisted students with academic, personal and housing concerns and engaged students in campus life</li>
-								</ul>
-								</div>
-							</div>
+    <div id="h">
+      <div class="logo">
+        <h2>BASIC</h2>
+      </div><!--/logo-->
+      <div class="container centered">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1>Hello, my name is <b>Daniel White</b>.<br/>I create for the web.</h1>
+          </div>
+        </div><!--/row-->
 
-							<div class="media">
-								<img class=" media-object pull-left" src="images/ieee.png">
-							<p class="media-heading">IEEE Executive Board Member (04/2013-Present)</p>
-								<div class="media-body">
-								<ul class="list-type">
-									<li>Developed partnerships with technology companies, such as Google, Microsoft, and Adage Technology</li>
-									<li>Increased membership by 20% by advertising and marketing on-campus events to highly selected engineers</li>
-									<li>Enhanced membership retention by managing mentor and mentee programs, alumni networks, and corporate relationships</li>
-									<li>Introduced freshman development programs to teach freshman about Matlab, circuits, and also simple bread-boarding skills</li>
-									<li>Initiated the Associate Executive Program to teach web application skills with guidelines and lesson plans</li>
-								</ul>
-								</div>
-							</div>
+        <div class="row mt">
+          <div class="col-sm-4">
+            <i class="ion-ios7-monitor-outline"></i>
+            <h3>Web Design</h3>
+          </div><!--/col-md-4-->
+
+          <div class="col-sm-4">
+            <i class="ion-ios7-browsers-outline"></i>
+            <h3>UI Development</h3>
+          </div><!--/col-md-4-->
+
+          <div class="col-sm-4">
+            <i class="ion-ios7-copy-outline"></i>
+            <h3>Brand Identity</h3>
+          </div><!--/col-md-4-->
+        
+        </div><!--/row-->
+      </div><!--/container-->
+    </div><!--H-->
+
+    <div class="container ptb">
+      <div class="row">
+        <h2 class="centered mb">I craft handsome sites & stunning apps<br/>that empower your startup.</h2>
+        <div class="col-md-6">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div><!--/col-md-6-->
+        <div class="col-md-6">
+          <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+        </div><!--/col-md-6-->
+      </div><!--/row-->
+    </div><!-- /.container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <img src="assets/img/items.png" class="img-responsive" alt="">
+        </div>
+      </div><!--/row-->
+    </div><!--/.container-->
+
+    <div id="g">
+      <div class="container">
+        <div class="row centered">
+          <h2>Check some of my latest works.</h2>
+          <div class="col-md-8 col-md-offset-2">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.<br/>It has roots in a piece of classical Latin literature<br/>from 45 BC, making it over 2000 years old.</p>
+
+          </div><!--/col-md-8-->
+        </div><!--/row-->
+      </div><!--/.container-->
+    <div class="portfolio-centered mt">
+      <div class="recentitems portfolio">
+
+        <div class="portfolio-item graphic-design">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_09.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+               </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+                            
+        <div class="portfolio-item web-design">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_02.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+              </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+        
+        <div class="portfolio-item graphic-design">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_03.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+              </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+        
+        <div class="portfolio-item graphic-design">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_04.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+              </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+                                        
+        <div class="portfolio-item books">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_05.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+              </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+
+        <div class="portfolio-item graphic-design">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_06.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+               </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+                            
+        <div class="portfolio-item web-design">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_07.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+              </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+        
+        <div class="portfolio-item graphic-design">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_08.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+              </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+        
+        <div class="portfolio-item graphic-design">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_01.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+              </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+                                        
+        <div class="portfolio-item books">
+          <div class="he-wrap tpl6">
+          <img src="assets/img/portfolio/portfolio_10.jpg" class="img-responsive" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
+                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+              </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+       </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+
+    <div class="container mt">
+        <div class="row clients centered">
+          <p class="mb">Some clients that I had the pleasure to working for.</p>
+          <div class="col-sm-2 col-sm-offset-1">
+            <img src="assets/img/client1.png" alt="">
+          </div>
+          <div class="col-sm-2">
+            <img src="assets/img/client3.png" alt="">
+          </div>
+          <div class="col-sm-2">
+            <img src="assets/img/client2.png" alt="">
+          </div>
+          <div class="col-sm-2">
+            <img src="assets/img/client4.png" alt="">
+          </div>
+          <div class="col-sm-2">
+            <img src="assets/img/client5.png" alt="">
+          </div>
+        </div><!--/row-->
+      </div><!--/container-->
+    </div><!--/.G-->
+
+    <div id="sep">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-md-8 col-md-offset-2">
+            <h1>I live in the amazing San Francisco</h1>
+            <h3 class="mb">Lorem Ipsum is simply dummy text<br/>of the printing and typesetting industry.</h3>
+            <button class="btn btn-conf btn-clear">Request for Information</button>
+          </div>
+        </div><!--/row-->
+      </div><!--/container-->
+    </div><!--/.sep-->
+
+    <div id="f">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-md-8 col-md-offset-2">
+            <a href="#"><i class="ion-social-twitter"></i></a>
+            <a href="#"><i class="ion-social-dribbble"></i></a>
+            <a href="#"><i class="ion-social-instagram"></i></a>
+            <a href="#"><i class="ion-social-facebook"></i></a>
+          </div><!--/col-md-8-->
+        </div>
+      </div><!--/container-->
+    </div><!--/.F-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/retina-1.1.0.js"></script>
+    <script src="assets/js/jquery.hoverdir.js"></script>
+    <script src="assets/js/jquery.hoverex.min.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/jquery.isotope.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 
 
-							<div class="media">
-								<img class=" media-object pull-left" src="images/itasa.png">
-							<p class="media-heading">ITASA Assistant Information Director (03/2013-04/2014)</p>
-								<div class="media-body">
-								<ul class="list-type">
-									<li>Streamlined the website design to make it user-friendly and putting up new sections of the website as required</li>
-									<li>Utilize the student resources section to manage communication in bigger networks</li>
-									<li>Maintained the national board roster, which controls email accounts and central authentication on Google Apps</li>
-								</ul>
-								</div>
-							</div>
-
-						</article>
-						<article>
-							<h3>Extracurricular Activities Experience</h3></br>
-
-							<div class="media">
-								<img class=" media-object pull-left" src="images/akpsi.png">
-							<p class="media-heading">Alpha Kappa Psi (03/2014-Present)</p>
-								<div class="media-body">
-								<ul class="list-type">
-									<li>Networked with Kellog students for future business opportunities</li>
-									<li>Hosted fundraising events to support the Northwestern chapter</li>
-									<li>Participated in case workshops and business networking workshops</li>
-								</ul>
-								</div>
-							</div>
-
-							<div class="media">
-								<img class=" media-object pull-left" src="images/kesem.png">
-							<p class="media-heading">Camp Kesem (09/2013-Present)</p>
-								<div class="media-body">
-								<ul class="list-type">
-									<li>Collaborated with other Camp Kesem groups to plan Family Night at the Field Museum</li>
-									<li>Fundraised over $2000 through donors, sponsors, and also campus events </li>
-									<li>Served as rotational program leader and laid down ground rules for kids </li>
-								</ul>
-								</div>
-							</div>							
-						</article>
-						
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<section>
-					<div class="bl-box">
-						<h2>Contact</h2>
-					</div>
-					<div class="bl-content">
-						<h2>Contact Information</h2>
-
-						<h3><a href="#"><i class="fa fa-phone fa-2x"></i></a> Phone Number: 312-909-5169</h3></br>
-						<h3><a href="https://github.com/tedwu13"><i class="fa fa-github fa-2x"></i></a> Github: tedwu13</h3></br>
-						<h3><a href="mailto:tedwu2016@u.northwestern.edu"><i class="fa fa-envelope-square fa-2x"></i></a> Email: tedwu2016@u.northwestern.edu</h3></br>
-						<h3><a href="https://www.linkedin.com/profile/view?id=281086521&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin-square fa-2x"></i></a> Linkedin </h3></br>
-						<h3><a href="https://bitbucket.org/dashboard/overview?section=mine"><i class="fa fa-bitbucket fa-2x"></i></a>BitBucket</h3></br>
-
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<!-- Panel items for the works -->
-				<div class="bl-panel-items" id="bl-panel-work-items">
-					<div data-panel="panel-1">
-						<div>
-							<img src="images/1.png" />
-							<h3>Client Web Application</h3>
-							<h4>Technologies Used: Angular JS, MongoDb, Express, Mongoose, Html, Javascript, CSS</h4>
-
-							<p>Imported CSV client information and converted to JSON objects. Generated thumbnail images of each client website and stored all information into MongoDb. This web application then iterates through 800 clients and creates divs for each client with the client name, website url, thumbnail image, and also security input box. Architects of the company can update and rank the security of each website so that programmers can know what confidential information needs to be protected.</p>
-							<p>Features: Search Box, A-Z pagination, Update Security Button, Modals</p>
-						</div>
-					</div>
-					<div data-panel="panel-2">
-						<div>
-							<img src="images/2.png" />
-							<h3>One North Redesign</h3>
-							<h4>Technologies Used: Keystone, Angular, Handlebars, Sass</h4>
-							<a href = "http://www.onenorth.com/"> Website Link </a>
-							<p>Coded the dynamic navigation scroller that populates based on the section title. Componentized all code into re-useable template code including hero, footer, main sections. Worked with three other developers and designer with an iterative design process mindset. Focused on the about and ideas page and added templates and content through keystone. Fixed bugs through BugsHerd software and located where and what the bugs are and kept a bug database. The whole redesign is an iterative process as we continue to receive feedback to change styling and added more functionality to the website to focus on branding. Added responsiveness and made it mobile-friendly</p>
-							<p>Features: Consistent hero sections, page navigation scrollers, search function for blog posts, dynamic populated leadership section</p>
-						</div>
-					</div>
-					<div data-panel="panel-3">
-						<div>
-							<img src="images/3.png" />
-							<h3>Motivate Gym Application</h3>
-
-							<h4>Technologies Used: Html, CSS, Javascript, Jquery</h4>
-							<a href= "http://www.motivate.github.io">Website Link</a>	
-							<p>Mostly focused on front end development while designing the user interface. Conducted more than 20+ user interviews and testing to see what features are intuitive and what needs to be fixed. Motivate gym application allows users to challenge each other based on fitness goals and to keep track of individual fitness goals. This is just a prototype with the front-end of the web-app fully designed. </p>
-							<p>Challenge friends for fitness goals, update progress, stats page, splash page</p>
-						</div>
-					</div>
-					<div data-panel="panel-4">
-						<div>
-							<img src="images/4.png" />
-							<h3>Project Pitch</h3>
-							<a href = "http://nuprojectpitch.com/">Website Link</a>
-							<h4>Technologies Used: Html, CSS, Javascript</h4>
-							<p>Participated in Northwestern Project Pitch Competition to focus on developing traction and business model to increase exposure to Chinese medicine. Worked on the front end design and also incorporated more interactivity for the website.  
-							</p>
-							
-						</div>
-					</div>
-
-
-					<div data-panel="panel-5">
-						<div>
-							<img src="images/5.png" />
-							<h3>Recipease</h3>
-							<h4>Technologies Used: Yummly API, BackboneJS, JQueryMobile, Parse, HTML5 Local Storage, Javascript</h4>
-							<a href= "http://recipease.parseapp.com">Website Link </a>
-							
-							<p>This recipe app allows users to store ingredients into users own fridge list and this app will return good recipes. Users only have to update the ingredients in their fridge which save lots of time</p>
-							<p>Features: User fridge list, Return best recipes with highest ratings, Sharing recipe feature on social media</p>
-
-						</div>
-					</div>
-
-					<div data-panel="panel-6">
-						<div>
-							<img src="images/6.png"/>
-							<h3>DLA Piper Website Design</h3>
-							<h4>Technologies Used: Javascript, BugHerd, Sass, HTML</h4>
-							<a href=" https://www.dlapiper.com/en/us/">Website Link</a>
-							<p>Fixed four crucial bugs for DLA piper by making headers dynamic, embedded Youtube video responsive, features compatible accross all browsers, and also interior CMS problems. Utilized BugHerd to keep track of bugs. Implemented dynamic robots.txt files to prevent staged website from being crawled by web crawlers and bots.</p>
-						</div>
-					</div>
-
-					<div data-panel="panel-7">
-						<div>
-							<img src="images/7.png"/>
-							<h3>Bulb</h3>
-							<h4>Technologies Used: Javascript, HTML, CSS, Parse</h4>
-						
-							<a href=" https://www.crowdbeats.parseapp.com">Website Link</a>
-							<p>Designed wireframes, logo, and also the responsive layouts for bulb app. Used parse to keep track of the seconds of the lightshow and control it with a centralized system</p>
-						</div>
-					</div>
-
-					<nav>
-						<span class="bl-next-work">&gt; Next Project</span>
-						<span class="bl-icon bl-icon-close"></span>
-					</nav>
-				</div>
-			</div>
-		</div><!-- /container -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/boxlayout.js"></script>
-		<script>
-			$(function() {
-				Boxlayout.init();
-			});
-		</script>
-	</body>
+    <script>
+// Portfolio
+(function($) {
+  "use strict";
+  var $container = $('.portfolio'),
+    $items = $container.find('.portfolio-item'),
+    portfolioLayout = 'fitRows';
+    
+    if( $container.hasClass('portfolio-centered') ) {
+      portfolioLayout = 'masonry';
+    }
+        
+    $container.isotope({
+      filter: '*',
+      animationEngine: 'best-available',
+      layoutMode: portfolioLayout,
+      animationOptions: {
+      duration: 750,
+      easing: 'linear',
+      queue: false
+    },
+    masonry: {
+    }
+    }, refreshWaypoints());
+    
+    function refreshWaypoints() {
+      setTimeout(function() {
+      }, 1000);   
+    }
+        
+    $('nav.portfolio-filter ul a').on('click', function() {
+        var selector = $(this).attr('data-filter');
+        $container.isotope({ filter: selector }, refreshWaypoints());
+        $('nav.portfolio-filter ul a').removeClass('active');
+        $(this).addClass('active');
+        return false;
+    });
+    
+    function getColumnNumber() { 
+      var winWidth = $(window).width(), 
+      columnNumber = 1;
+    
+      if (winWidth > 1200) {
+        columnNumber = 5;
+      } else if (winWidth > 950) {
+        columnNumber = 4;
+      } else if (winWidth > 600) {
+        columnNumber = 3;
+      } else if (winWidth > 400) {
+        columnNumber = 2;
+      } else if (winWidth > 250) {
+        columnNumber = 1;
+      }
+        return columnNumber;
+      }       
+      
+      function setColumns() {
+        var winWidth = $(window).width(), 
+        columnNumber = getColumnNumber(), 
+        itemWidth = Math.floor(winWidth / columnNumber);
+        
+        $container.find('.portfolio-item').each(function() { 
+          $(this).css( { 
+          width : itemWidth + 'px' 
+        });
+      });
+    }
+    
+    function setPortfolio() { 
+      setColumns();
+      $container.isotope('reLayout');
+    }
+      
+    $container.imagesLoaded(function () { 
+      setPortfolio();
+    });
+    
+    $(window).on('resize', function () { 
+    setPortfolio();          
+  });
+})(jQuery);
+</script>
+  </body>
 </html>
