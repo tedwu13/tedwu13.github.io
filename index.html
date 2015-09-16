@@ -73,10 +73,10 @@
 
     <div class="container ptb">
       <div class="row">
-        <h2 class="centered mb">I like to solve difficult problems, come up with creative designs, and implement features <br/>that emprove user experiences</h2>
+        <span class="typeSentence centered mb"> come up with creative designs, and implement features <br/>that emprove user experiences</span>
         <div class="col-md-2"></div>
         <div class="centered col-md-8">
-          <p>I started my web development journey two years ago. Since then, I've never stopped trying to learn new technologies, concepts, and ideas surrounding software development. My dream is to help design, build, and deploy innovative software products that can impact lives. I’ve built web apps, websites, and design wireframes and I am very eager to build more and learn from every project! I’ve worked in agile software teams, product design team, and also team of different sizes so I have the confidence that I can thrive in any environment with my experiences.
+          <p>I started my web development journey two years ago. Since then, I've never stopped trying to learn new technologies, concepts, and ideas surrounding software development. My dream is to help design, build, and deploy innovative software products that can impact lives.  I’ve worked in agile software teams, product design team, and also team of different sizes so I have the confidence that I can thrive in any environment with my experiences.
           </p>
         </div><!--/row-->
         <div class="col-md-2"></div>
@@ -274,6 +274,7 @@
       </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
+    <script src="bower_components/typed.js/js/typed.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/retina-1.1.0.js"></script>
     <script src="assets/js/jquery.hoverdir.js"></script>
@@ -286,6 +287,14 @@
 // Portfolio
 (function($) {
   "use strict";
+
+  $(function(){
+        $(".typeSentence").typed({
+            strings: ["", "Second sentence."],
+            typeSpeed: 5
+        });
+  });
+
   var $container = $('.portfolio'),
     $items = $container.find('.portfolio-item'),
     portfolioLayout = 'fitRows';
