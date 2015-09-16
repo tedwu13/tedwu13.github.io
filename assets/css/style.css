@@ -371,4 +371,9 @@ input {
 	height: 70px;
 }
 
+.profile {
+	width: 800px;
+	height: 800px;
+	margin-left: 80px;
+}
 
