@@ -188,6 +188,7 @@ input {
 
 /* HEADER SECTION */
 #h {
+	background-color: #80D9FF;
 	/*background: url(../img/header.jpg) no-repeat center top;*/
 	padding-top: 5px;
 	background-attachment: relative;
@@ -206,6 +207,7 @@ input {
     background-size: cover;
     color: white;
 }
+
 
 #h h3 {
 	margin-top: 10px;
@@ -357,7 +359,7 @@ input {
 /*
 Clouds animation*/
 
-#background-wrap {
+/*#background-wrap {
     bottom: 0;
 	left: 0;
 	padding-top: 50px;
@@ -365,7 +367,7 @@ Clouds animation*/
 	right: 0;
 	top: 0;
 	z-index: -1;
-}
+}*/
 
 /* KEYFRAMES */
 
