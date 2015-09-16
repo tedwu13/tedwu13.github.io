@@ -1,5 +1,4 @@
 tedwu13.github.io
-=================
 
 Technologies Used:
 HTML, CSS, Font-Awesome, Bootstrap, BoxLayoutJS, Jquery
