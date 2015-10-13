@@ -350,9 +350,12 @@ input {
 }
 
 .profile {
-	width: 800px;
-	height: 800px;
-	margin-left: 80px;
+    display:block;
+	width: 400px;
+	height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 
