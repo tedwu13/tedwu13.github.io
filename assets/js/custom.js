@@ -1,12 +1,20 @@
 (function($) {
+    $("input").hover(
+        function(){
+            $('#icon').fadeOut(400);
+            $('#search').fadeIn(400);
+        },
+        function(){
+          $('#search').fadeOut(400);
+          $('#icon').fadeIn(400);
+        }
+    );
 
-// prettyPhoto
-	jQuery(document).ready(function(){
-		jQuery('a[data-gal]').each(function() {
-			jQuery(this).attr('rel', jQuery(this).data('gal'));
-		});  	
-		jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'light_square',slideshow:false,overlay_gallery: false,social_tools:false,deeplinking:false});
-	}); 
-
+    $( "input" ).keypress(function(evt) {
+        var queryValue;
+        if(evt.keyCode === 13) {
+            queryValue = $(this).val();
+        }
+    });      
 		
 })(jQuery);
