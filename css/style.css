@@ -98,8 +98,8 @@ ul.side_nav li a{
     margin-bottom:1em;
 }
 ul.side_nav li a:hover{
-    background:#53bed6;
-    border:2px solid#53bed6;
+    background:#BC2C1A;
+    border:2px solid#BC2C1A;
 }
 /*--slider--*/
 .top-menu {
@@ -212,8 +212,8 @@ i.arrow {
     text-transform: uppercase;
 }
 #loginpop a span:hover{
-    background:#53bed6;
-    border: 1px solid #53bed6;
+    background:#BC2C1A;
+    border: 1px solid #BC2C1A;
     color:#fff;
 }
 /* Login Button */
@@ -284,7 +284,7 @@ fieldset#body {
 #loginForm #login {
     width: auto;
     float: left;
-    background:#53bed6;
+    background:#BC2C1A;
     color: #fff;
     font-size: 0.8725em;
     padding: 7px 20px;
@@ -358,7 +358,7 @@ fieldset#body {
     z-index: 999;
     position: absolute;
     width: 93.5%;
-    background:#53bed6;
+    background:#BC2C1A;
     text-align: center;
     margin-left: -2.3em;
 }
@@ -405,6 +405,11 @@ h3.tittle {
     color: #34353a;
     font-family: 'Dosis', sans-serif;text-align:center;
     margin-bottom:1em;
+    margin-top: 1em;
+}
+
+.golden {
+    max-width: 350px;
 }
 .ab-grid {
     padding:0;
@@ -413,7 +418,7 @@ h3.tittle {
     width:100%;
 }
 .text {
-    background-color: #53bed6;
+    background-color: #BC2C1A;
     min-height: 550px;
     padding: 4em;
 }
@@ -422,9 +427,15 @@ h3.tittle {
     line-height: 1.6em;
     color: #fff;
 }
+
+#list {
+    color: white;
+    list-style-type: none;
+
+}
 .ab-grid.text p{
-    font-size:0.9em;
-    line-height: 1.8em;
+    font-size:1.0em;
+    line-height: 1.5em;
     color: #fff;
     width: 80%;
     margin: 1em 0;
@@ -448,12 +459,12 @@ span.devide-line {
     position: absolute;
     top: 5.4em;
     display: initial;
-    background: #53bed6;
+    background: #BC2C1A;
     left: 50%;
 }
 .experience-left h4, .experience-left-trd h4,.experience-right-snd h4 {
     font-size: 1.4em;
-    color: #53bed6;
+    color: #BC2C1A;
     margin: 0px;
     text-transform: uppercase;
 }
@@ -484,12 +495,12 @@ span.devide-line {
     top: 22.35em;
 }
 .experience-left span, .experience-left-snd span, .experience-left-trd span {
-    color: #53bed6;
+    color: #BC2C1A;
     font-size: 1.7em;
     position: relative;
     right: -3.825em;
     padding: 14px;
-    border: 2px dotted #53bed6;
+    border: 2px dotted #BC2C1A;
     border-radius: 50%;
     -o-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -674,7 +685,7 @@ label {
     outline: none;
     padding: 0.7em 0.7em;
     color: #fff;
-    background: #53bed6;
+    background: #BC2C1A;
     text-transform: uppercase;
     font-weight:500;
     font-size: 0.95em;
@@ -738,17 +749,17 @@ h3.tittle.two {
     padding: 7em 0 0 13em;
 }
 .point i {
-    color:#53bed6;
+    color:#BC2C1A;
     font-size: 4em;
 }
 .map-l i {
-    color:#53bed6;
+    color:#BC2C1A;
     font-size: 4em;
 }
 /*--welcome--*/
 .copy {
     text-align: center;
-    background:#53bed6;
+    background:#BC2C1A;
     padding: 1em 1em;
 }
 .copy p {
@@ -1126,7 +1137,7 @@ span.devide-line {
     z-index: 999;
     position: absolute;
     width: 95.5%;
-    background: #53bed6;
+    background: #BC2C1A;
     text-align: center;
     margin-left: -2.3em;
 }
