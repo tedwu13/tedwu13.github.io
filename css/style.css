@@ -414,11 +414,34 @@ h3.tittle {
 .ab-grid {
     padding:0;
 }
+
 .pic img {
     width:100%;
 }
+
+.text-small {
+    background-color: #1aaabc; /*light blue*/
+    min-height: 407px;
+    padding: 1.5em;
+}
+
+.belief {
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    font-weight: 900;
+
+}
+
+.ab-grid.text-small h4{
+    font-size: 1.5em;
+    line-height: 1.6em;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+}
 .text {
-    background-color: #BC2C1A;
+    background-color: #BC2C1A; /* ruby red */
     min-height: 550px;
     padding: 4em;
 }
