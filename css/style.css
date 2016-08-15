@@ -465,8 +465,8 @@ h3.tittle {
 }
 /*--experience-starts--*/
 .experience {
-    padding-top: 5em;
-    min-height: 856px;
+    padding-top: 1em;
+    min-height: 1100px;
     background-color: #fff;
 }
 .experience-top{
@@ -477,26 +477,26 @@ h3.tittle {
     text-align:center;
 }
 span.devide-line {
-    width: 1px;
-    height: 360px;
+    width: 4px;
+    height: 750px;
     position: absolute;
     top: 5.4em;
     display: initial;
     background: #BC2C1A;
     left: 50%;
 }
-.experience-left h4, .experience-left-trd h4,.experience-right-snd h4 {
+.experience-left h4, .experience-left-trd h4,.experience-right-snd h4, .experience-right-trd h4{
     font-size: 1.4em;
     color: #BC2C1A;
     margin: 0px;
     text-transform: uppercase;
 }
-.experience-left h5, .experience-left-trd h5,.experience-right-snd h5 {
+.experience-left h5, .experience-left-trd h5,.experience-right-snd h5, .experience-right-trd h5{
     font-size: 0.9em;
     color: #34353a;
     margin: 14px 0;
 }
-.experience-left p, .experience-left-trd p,.experience-right-snd p {
+.experience-left p, .experience-left-trd p,.experience-right-snd p, .experience-right-trd p {
     font-size: 0.9em;
     color: #555;
     margin-top: 8px;
@@ -517,13 +517,14 @@ span.devide-line {
 .experience-left-trd {
     top: 22.35em;
 }
+
 .experience-left span, .experience-left-snd span, .experience-left-trd span {
     color: #BC2C1A;
     font-size: 1.7em;
     position: relative;
     right: -3.825em;
-    padding: 14px;
-    border: 2px dotted #BC2C1A;
+    padding: 22px;
+    border: 2px solid #BC2C1A;
     border-radius: 50%;
     -o-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -542,14 +543,19 @@ span.devide-line {
 .experience-left-trd span {
     top: 1.83em;
 }
-.experience-right-snd {
+
+.experience-right-snd, .experience-right-trd {
     width: 40%;
     position: absolute;
     left: 56.2%;
     text-align: left;
 }
+
 .experience-right-snd {
     top: 15em;
+}
+.experience-right-trd {
+   top: 31.35em;
 }
 /*--experience-end--*/
 /*--my skill--*/
