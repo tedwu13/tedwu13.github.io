@@ -40,7 +40,7 @@
 								<li><a class="scroll" href="#golden" data-hover="Golden Theory">Golden Theory</a></li>
 								<li><a class="scroll" href="#about" data-hover="WHY">WHY</a></li>
 								<li><a class="scroll" href="#experience" data-hover="HOW">HOW</a></li>
-								<li><a class="scroll" href="#skill" data-hover="Skills">Skills</a></li>
+								<li><a class="scroll" href="#skill" data-hover="Personality">Personality</a></li>
 								<li><a class="scroll" href="#port" data-hover="Portfolio">Portfolio</a></li>
 								<li><a class="scroll" href="#contact" data-hover="Contact">Contact</a></li>
 								<div class="clearfix"></div>
@@ -196,41 +196,38 @@
 <!--my-skill-->
   <div class="my-skills text-center" id="skill">
 	<div class="container">
-		<h3 class="tittle">My Skills</h3>
+		<h3 class="tittle">PERSONALITY: ENFP-A</h3>
 		<div class="skill-grids">
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-1"></div>
-						<p>Photoshop</p>
+						<p>Extroverted</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-2"></div>
-						<p>Illustrator</p>
+						<p>Intuition</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
-						<p>Photography</p>
+						<p>Feeling</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-4"></div>
-						<p>Html 5 / CSS 3</p>
+						<p>Perception</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-5"></div>
-						<p>C4D</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-6"></div>
-						<p>After Effect</p>
+						<p>Assertive</p>
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
 					         <script>
 								var colors = [
-										['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff']
+										['#ffffff','#1aaabc'], ['#ffffff','#1aaabc'], ['#ffffff', '#1aaabc'], ['#ffffff', '#1aaabc'], ['#ffffff', '#1aaabc'], ['#ffffff','#1aaabc']
 									];
-								for (var i = 1; i <= 7; i++) {
+								var percentage_array = [ 89, 56, 69, 67, 60 ]
+								for (var i = 1; i <= 5; i++) {
 									var child = document.getElementById('circles-' + i),
-										percentage = 30 + (i * 10);
+										percentage = percentage_array[i-1];
 										
 									Circles.create({
 										id:         child.id,
@@ -355,7 +352,7 @@
 					      <span class="icon linkedin"><i class="fa fa-linkedin"></i></span>
 					    </li>
 					  </ul>
-				</div>
+			</div>
 		</div>	
 
 	</div>
